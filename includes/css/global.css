@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header styles */
+.header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.iconEmpresa{
+    width: 300px;
+}
+.ulHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.liHeader{
+    list-style: none;
+    margin-left: 20px;
+}
+
+.liHeader a{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
