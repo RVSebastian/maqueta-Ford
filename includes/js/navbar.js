@@ -85,7 +85,7 @@ var swiper = new Swiper(".featured-slider", {
 var swiper = new Swiper(".review-slider", {
   grabCursor: true,
   centeredSlides: true,  
-  spaceBetween: 20,
+  spaceBetween: 10,
   loop:true,
   autoplay: {
     delay: 9500,
@@ -99,11 +99,17 @@ var swiper = new Swiper(".review-slider", {
     0: {
       slidesPerView: 1,
     },
-    768: {
+    300: {
       slidesPerView: 2,
     },
-    1024: {
+    400: {
       slidesPerView: 3,
+    },
+    500: {
+      slidesPerView: 4,
+    },
+    600: {
+      slidesPerView: 5,
     },
   },
 });

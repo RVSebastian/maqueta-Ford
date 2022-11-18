@@ -21,7 +21,7 @@
     <!-- navbar-->
 </head>
 
-<body>
+<body class="">
 
 
     <header class="header">

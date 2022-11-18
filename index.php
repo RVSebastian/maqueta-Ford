@@ -1,8 +1,6 @@
 <?php include'./includes/components/header.php';?>
 
-
 <div class="login-form-container">
-
     <span id="close-login-form" class="fas fa-times"></span>
 
     <form action="">
@@ -18,12 +16,11 @@
         </div>
         <p> don't have an account <a href="#">create one</a> </p>
     </form>
-
 </div>
 
 <?php include'./includes/components/carrouselb.php';?>
-<section class="icons-container">
 
+<section class="icons-container">
     <div class="icons">
         <i class="fas fa-home"></i>
         <div class="content">
@@ -62,45 +59,26 @@
 
     <h1 class="heading"> popular <span>vehicles</span> </h1>
 
-    <div class="swiper vehicles-slider">
+
+
+
+</section>
+
+<section class="reviews" id="reviews">
+
+    <h1 class="heading"> client's <span>review</span> </h1>
+
+    <div class="swiper review-slider">
+
         <div class="swiper-wrapper">
-            <div class="swiper-slide box">
-                <img src="image/prueba.jpg" alt="">
-                <div class="content">
-                    <h3>Volkswagen Gol</h3>
-                    <p>1.6 confortilne hatchback mecanico</h2>
-                    <p>
-                        <span class="fas fa-circle"></span> 2021
-                        <span class="fas fa-circle"></span> automatic
-                        <span class="fas fa-circle"></span> petrol
-                        <span class="fas fa-circle"></span> 183mph
-                    </p>
-                    <div class="price"> <span>price : </span> $62,000/- </div>
-                    <a href="#" class="btn">check out</a>
-                </div>
-            </div>
-            <div class="swiper-slide box">
-                <img src="image/prueba.jpg" alt="">
-                <div class="content">
-                    <h3>Volkswagen Gol</h3>
-                    <p>1.6 confortilne hatchback mecanico</h2>
-                    <p>
-                        <span class="fas fa-circle"></span> 2021
-                        <span class="fas fa-circle"></span> automatic
-                        <span class="fas fa-circle"></span> petrol
-                        <span class="fas fa-circle"></span> 183mph
-                    </p>
-                    <div class="price"> <span>price : </span> $62,000/- </div>
-                    <a href="#" class="btn">check out</a>
-                </div>
-            </div>
 
-
+            <div class="swiper-slide box">
+            <img src="image/plantilla.jpg" alt="">
+            </div>
+            
         </div>
 
-    </div>
-
-    <div class="swiper-pagination"></div>
+        <div class="swiper-pagination"></div>
 
     </div>
 
@@ -160,155 +138,9 @@
 
 <section class="featured" id="featured">
 
-    <h1 class="heading"> <span>featured</span> cars </h1>
+    <h1 class="heading"> featured <span>cars<span> </h1>
 
-    <div class="swiper featured-slider">
 
-        <div class="swiper-wrapper">
-
-            <div class="swiper-slide box">
-                <img src="image/car-1.png" alt="">
-                <div class="content">
-                    <h3>new model</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <div class="price">$55,000/-</div>
-                    <a href="#" class="btn">check out</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <img src="image/car-2.png" alt="">
-                <div class="content">
-                    <h3>new model</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <div class="price">$55,000/-</div>
-                    <a href="#" class="btn">check out</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <img src="image/car-3.png" alt="">
-                <div class="content">
-                    <h3>new model</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <div class="price">$55,000/-</div>
-                    <a href="#" class="btn">check out</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <img src="image/car-4.png" alt="">
-                <div class="content">
-                    <h3>new model</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <div class="price">$55,000/-</div>
-                    <a href="#" class="btn">check out</a>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="swiper-pagination"></div>
-
-    </div>
-
-    <div class="swiper featured-slider">
-
-        <div class="swiper-wrapper">
-
-            <div class="swiper-slide box">
-                <img src="image/car-5.png" alt="">
-                <div class="content">
-                    <h3>new model</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <div class="price">$55,000/-</div>
-                    <a href="#" class="btn">check out</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <img src="image/car-6.png" alt="">
-                <div class="content">
-                    <h3>new model</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <div class="price">$55,000/-</div>
-                    <a href="#" class="btn">check out</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <img src="image/car-7.png" alt="">
-                <div class="content">
-                    <h3>new model</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <div class="price">$55,000/-</div>
-                    <a href="#" class="btn">check out</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <img src="image/car-8.png" alt="">
-                <div class="content">
-                    <h3>new model</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <div class="price">$55,000/-</div>
-                    <a href="#" class="btn">check out</a>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="swiper-pagination"></div>
-
-    </div>
 
 </section>
 
@@ -323,11 +155,11 @@
         <div class="swiper-wrapper">
 
             <div class="swiper-slide box">
-                <img src="image/pic-1.png" alt="">
+                <img src="image/plantilla.jpg" alt="">
                 <div class="content">
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam incidunt quod praesentium iusto
                         id autem possimus assumenda at ut saepe.</p>
-                    <h3>john deo</h3>
+                    <h3>Nombre</h3>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -337,77 +169,12 @@
                     </div>
                 </div>
             </div>
-
             <div class="swiper-slide box">
-                <img src="image/pic-2.png" alt="">
+                <img src="image/plantilla.jpg" alt="">
                 <div class="content">
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam incidunt quod praesentium iusto
                         id autem possimus assumenda at ut saepe.</p>
-                    <h3>john deo</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <img src="image/pic-3.png" alt="">
-                <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam incidunt quod praesentium iusto
-                        id autem possimus assumenda at ut saepe.</p>
-                    <h3>john deo</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <img src="image/pic-4.png" alt="">
-                <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam incidunt quod praesentium iusto
-                        id autem possimus assumenda at ut saepe.</p>
-                    <h3>john deo</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <img src="image/pic-5.png" alt="">
-                <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam incidunt quod praesentium iusto
-                        id autem possimus assumenda at ut saepe.</p>
-                    <h3>john deo</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <img src="image/pic-6.png" alt="">
-                <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam incidunt quod praesentium iusto
-                        id autem possimus assumenda at ut saepe.</p>
-                    <h3>john deo</h3>
+                    <h3>Nombre</h3>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -428,7 +195,7 @@
 
 <section class="contact" id="contact">
 
-    <h1 class="heading"><span>contact</span> us</h1>
+    <h1 class="heading">contact us</h1>
 
     <div class="row">
 

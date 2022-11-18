@@ -13,6 +13,7 @@
     width: 30vh;
 }
 
+
 *{
     font-family: 'Poppins', sans-serif;
     margin:0; padding:0;
@@ -22,11 +23,12 @@
     text-transform: capitalize;
     transition: .2s linear;
 }
+
 a:link,a.visited,a:active{
     text-decoration: none !important;
 }
 html{
-    font-size: 62.5%;
+    font-size: 60.5%;
     overflow-x: hidden;
     scroll-padding-top: 7rem;
     scroll-behavior: smooth;
@@ -491,6 +493,14 @@ section{
 
 .newsletter form input[type="submit"]:hover{
     background: var(--main);
+}
+
+.reviews .marcas-slider .box{
+    text-align: center;
+    padding:2rem;
+    margin: 2rem 0;
+    opacity: .4;
+    transform: scale(.9);
 }
 
 .reviews .review-slider{
