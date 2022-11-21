@@ -54,6 +54,10 @@
 
 <script src="./includes/js/navbar.js"></script>
 
+<!-- SCROLLREVEAL ANIMACIONES-->
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="./includes/js/animations.js"></script>
+<script src="./includes/js/carrousel.js"></script>
 </body>
 
 </html>

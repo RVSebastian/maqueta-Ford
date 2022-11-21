@@ -29,7 +29,6 @@ a:link,a.visited,a:active{
 }
 html{
     font-size: 60.5%;
-    overflow-x: hidden;
     scroll-padding-top: 7rem;
     scroll-behavior: smooth;
 }
@@ -207,9 +206,10 @@ section{
 }
 
 .home{
-    padding-top: 10rem;
+    padding-top: 30rem;
+    margin-bottom: 20px;
     text-align: center;
-    overflow-x: hidden;
+    overflow-x: visible !important;
 }
 
 .home h3{
@@ -220,7 +220,6 @@ section{
 
 .home img{
     width:100%;
-    margin:1rem 0;
 }
 
 .icons-container{
@@ -498,7 +497,7 @@ section{
 .reviews .marcas-slider .box{
     text-align: center;
     padding:2rem;
-    margin: 2rem 0;
+    margin: 1rem 0;
     opacity: .4;
     transform: scale(.9);
 }
@@ -512,13 +511,12 @@ section{
     padding:2rem;
     margin: 2rem 0;
     opacity: .4;
-    transform: scale(.9);
+    transform: scale(1);
 }
 
 .reviews .review-slider .swiper-slide-active{
     opacity: 1;
-    transform: scale(1);
-    box-shadow: var(--box-shadow);
+    transform: scale(3);
     border:var(--border);
     border-radius: .5rem;
 }

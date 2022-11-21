@@ -8,11 +8,11 @@
         <input type="email" placeholder="email" class="box">
         <input type="password" placeholder="password" class="box">
         <p> forget your password <a href="#">click here</a> </p>
-        <input type="submit" value="login" class="btn">
+        <input type="submit" value="login" class="btn-main">
         <p>or login with</p>
         <div class="buttons">
-            <a href="#" class="btn"> google </a>
-            <a href="#" class="btn"> facebook </a>
+            <a href="#" class="btn-main"> google </a>
+            <a href="#" class="btn-main"> facebook </a>
         </div>
         <p> don't have an account <a href="#">create one</a> </p>
     </form>
@@ -58,31 +58,12 @@
 <section class="vehicles" id="vehicles">
 
     <h1 class="heading"> popular <span>vehicles</span> </h1>
-
-
-
-
+    <?php include'./includes/components/card.php';?>
+    <?php include'./includes/components/card.php';?>
+    <?php include'./includes/components/card.php';?>
 </section>
 
-<section class="reviews" id="reviews">
-
-    <h1 class="heading"> client's <span>review</span> </h1>
-
-    <div class="swiper review-slider">
-
-        <div class="swiper-wrapper">
-
-            <div class="swiper-slide box">
-            <img src="image/plantilla.jpg" alt="">
-            </div>
-            
-        </div>
-
-        <div class="swiper-pagination"></div>
-
-    </div>
-
-</section>
+<?php include'./includes/components/marcas.php';?>
 
 <section class="services" id="services">
 
@@ -94,104 +75,44 @@
             <i class="fas fa-car"></i>
             <h3>car selling</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>
-            <a href="#" class="btn"> read more</a>
+            <a href="#" class="btn-main"> read more</a>
         </div>
 
         <div class="box">
             <i class="fas fa-tools"></i>
             <h3>parts repair</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>
-            <a href="#" class="btn"> read more</a>
+            <a href="#" class="btn-main"> read more</a>
         </div>
 
         <div class="box">
             <i class="fas fa-car-crash"></i>
             <h3>car insurance</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>
-            <a href="#" class="btn"> read more</a>
+            <a href="#" class="btn-main"> read more</a>
         </div>
 
         <div class="box">
             <i class="fas fa-car-battery"></i>
             <h3>battery replacement</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>
-            <a href="#" class="btn"> read more</a>
+            <a href="#" class="btn-main"> read more</a>
         </div>
 
-        <div class="box">
-            <i class="fas fa-gas-pump"></i>
-            <h3>oil change</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>
-            <a href="#" class="btn"> read more</a>
-        </div>
+       
 
         <div class="box">
             <i class="fas fa-headset"></i>
             <h3>24/7 support</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>
-            <a href="#" class="btn"> read more</a>
+            <a href="#" class="btn-main"> read more</a>
         </div>
 
     </div>
 
 </section>
 
-<section class="featured" id="featured">
 
-    <h1 class="heading"> featured <span>cars<span> </h1>
-
-
-
-</section>
-
-
-
-<section class="reviews" id="reviews">
-
-    <h1 class="heading"> client's <span>review</span> </h1>
-
-    <div class="swiper review-slider">
-
-        <div class="swiper-wrapper">
-
-            <div class="swiper-slide box">
-                <img src="image/plantilla.jpg" alt="">
-                <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam incidunt quod praesentium iusto
-                        id autem possimus assumenda at ut saepe.</p>
-                    <h3>Nombre</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide box">
-                <img src="image/plantilla.jpg" alt="">
-                <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam incidunt quod praesentium iusto
-                        id autem possimus assumenda at ut saepe.</p>
-                    <h3>Nombre</h3>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="swiper-pagination"></div>
-
-    </div>
-
-</section>
 
 <section class="contact" id="contact">
 
@@ -209,7 +130,7 @@
             <input type="email" placeholder="your email" class="box">
             <input type="tel" placeholder="subject" class="box">
             <textarea placeholder="your message" class="box" cols="30" rows="10"></textarea>
-            <input type="submit" value="send message" class="btn">
+            <input type="submit" value="send message" class="btn-main">
         </form>
 
     </div>

@@ -1,0 +1,13 @@
+.card{
+    margin: 20px;
+    background-color: white;
+    border: 0;
+    border-radius: 4px;
+    cellAlign: center;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+
+.card:hover{
+    transform: scale(2);
+}
