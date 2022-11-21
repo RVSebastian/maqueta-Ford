@@ -22,9 +22,16 @@
     background-color: #EEEE;
     color: black
 }
+
+.card-carousel{
+    height: 20%;
+}
 </style>
-<div class="card-group left">
-    <div class="card vehicles" style="width: 30rem;">
+
+<!-- hola grr el que lea esto es mongol -->
+<div class="card-carousel"
+    data-flickity='{ "cellAlign": "left", "contain": true, "prevNextButtons": false, "pageDots": false  }'>
+    <div class="card vehicles carousel-cell" style="width: 30rem;">
         <img src="./image/car-1.png" class="card-img-top" style="width: 23rem; height:  13rem" alt="...">
         <div class="card-body">
             <h2 class="card-title">Card title</h5>
@@ -42,7 +49,7 @@
 
         </div>
     </div>
-    <div class="card vehicles" style="width: 30rem;">
+    <div class="card vehicles carousel-cell" style="width: 30rem;">
         <img src="./image/car-2.png" class="card-img-top" style="width: 23rem; height:  13rem" alt="...">
         <div class="card-body">
             <h2 class="card-title">Card title</h5>
@@ -57,7 +64,7 @@
                 <h3>Precio estimado</p>
         </div>
     </div>
-    <div class="card vehicles" style="width: 30rem;">
+    <div class="card vehicles carousel-cell" style="width: 30rem;">
         <img src="./image/car-3.png" class="card-img-top" style="width: 23rem; height:  13rem" alt="...">
         <div class="card-body">
             <h2 class="card-title">Card title</h5>
@@ -72,7 +79,7 @@
                 <h3>Precio estimado</p>
         </div>
     </div>
-    <div class="card vehicles" style="width: 30rem;">
+    <div class="card vehicles carousel-cell" style="width: 30rem;">
         <img src="./image/car-4.png" class="card-img-top" style="width: 23rem; height:  13rem" alt="...">
         <div class="card-body">
             <h2 class="card-title">Card title</h5>
@@ -87,7 +94,7 @@
                 <h3>Precio estimado</p>
         </div>
     </div>
-    <div class="card vehicles" style="width: 30rem;">
+    <div class="card vehicle carousel-cells" style="width: 30rem;">
         <img src="./image/car-5.png" class="card-img-top" style="width: 23rem; height:  13rem" alt="...">
         <div class="card-body">
             <h2 class="card-title">Card title</h5>
@@ -102,7 +109,7 @@
                 <h3>Precio estimado</p>
         </div>
     </div>
-    <div class="card vehicles" style="width: 30rem;">
+    <div class="card vehicles carousel-cell" style="width: 30rem;">
         <img src="./image/car-6.png" class="card-img-top" style="width: 23rem; height:  13rem" alt="...">
         <div class="card-body">
             <h2 class="card-title">Card title</h5>
@@ -118,6 +125,19 @@
         </div>
     </div>
 
-
-
 </div>
+
+<script>
+var elem = document.querySelector('.card-carrousel');
+var flkty = new Flickity(elem, {
+    // options
+    cellAlign: 'left',
+    contain: true
+});
+
+// element argument can be a selector string
+//   for an individual element
+var flkty = new Flickity('.card-carrousel', {
+    // options
+});
+</script>
