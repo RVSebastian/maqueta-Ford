@@ -21,7 +21,7 @@
 <?php include'./includes/components/carrouselb.php';?>
 
 <section class="icons-container">
-    <div class="icons">
+    <div class="icons" style="border-radius: 10px">
         <i class="fas fa-home"></i>
         <div class="content">
             <h3>150+</h3>
@@ -29,7 +29,7 @@
         </div>
     </div>
 
-    <div class="icons">
+    <div class="icons"  style="border-radius: 10px">
         <i class="fas fa-car"></i>
         <div class="content">
             <h3>4770+</h3>
@@ -37,7 +37,7 @@
         </div>
     </div>
 
-    <div class="icons">
+    <div class="icons"  style="border-radius: 10px">
         <i class="fas fa-users"></i>
         <div class="content">
             <h3>320+</h3>
@@ -45,7 +45,7 @@
         </div>
     </div>
 
-    <div class="icons">
+    <div class="icons" style="border-radius: 10px">
         <i class="fas fa-car"></i>
         <div class="content">
             <h3>1500+</h3>

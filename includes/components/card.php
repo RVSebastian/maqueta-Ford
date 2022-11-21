@@ -1,6 +1,7 @@
 <style>
 .card {
     margin: 30px;
+    height: 300px;
     background-color: white;
     border: 0;
     border-radius: 4px;
@@ -46,6 +47,7 @@
         </div>
         <div class="bg-dark text-light text-center pt-2">
             <h3>$40.000.0000 COP</h4>
+            <h3>Precio estimado</p>
 
         </div>
     </div>
@@ -131,8 +133,9 @@
 var elem = document.querySelector('.card-carrousel');
 var flkty = new Flickity(elem, {
     // options
-    cellAlign: 'left',
-    contain: true
+    cellAlign: 'center',
+    contain: true,
+    autoPlay: 1500,
 });
 
 // element argument can be a selector string
