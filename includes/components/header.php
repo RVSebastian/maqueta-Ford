@@ -45,12 +45,12 @@
         <img src="./image/logo.png" class="logo" alt="logo.automarcol">
 
         <nav class="navbar">
-            <a href="#home">home</a>
-            <a href="#vehicles">vehicles</a>
-            <a href="#services">services</a>
-            <a href="#featured">featured</a>
-            <a href="#reviews">reviews</a>
-            <a href="#contact">contact</a>
+            <a href="#home">Home</a>
+            <a href="#vehicles">Vehiculos</a>
+            <a href="#services">Repuestos</a>
+            <a href="#featured">Citas</a>
+            <a href="#reviews">PQRS</a>
+            <a href="#contact">Contact</a>
         </nav>
         <div id="login-btn" style="display: none"></div>
     </header>

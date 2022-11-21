@@ -1,4 +1,3 @@
-
 ScrollReveal().reveal('.left', {
     distance: '200%',
     origin: 'right',

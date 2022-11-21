@@ -53,11 +53,11 @@ var swiper = new Swiper(".featured-slider", {
 var swiper = new Swiper(".review-slider", {
   grabCursor: true,
   centeredSlides: true,
-  spaceBetween: 20,
+  spaceBetween: 3,
   loop: true,
   autoplay: {
-    delay: 1800,
-    disableOnInteraction: false,
+    delay: 2000,
+    disableOnInteraction: true,
   },
   pagination: {
     el: ".swiper-pagination",

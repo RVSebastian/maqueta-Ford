@@ -56,10 +56,11 @@
 </section>
 
 <section class="vehicles" id="vehicles">
-
-    <h1 class="heading"> popular <span>vehicles</span> </h1>
+    <h1 class="heading">Los mas <span>vendidos</span> </h1>
     <?php include'./includes/components/card.php';?>
+    <h1 class="heading"> Ford vehicles</h1>
     <?php include'./includes/components/card.php';?>
+    <h1 class="heading"> Peugeot vehicles</h1>
     <?php include'./includes/components/card.php';?>
 </section>
 
@@ -116,7 +117,7 @@
 
 <section class="contact" id="contact">
 
-    <h1 class="heading">contact us</h1>
+    <h1 class="heading">Contactanos</h1>
 
     <div class="row">
 
@@ -125,10 +126,9 @@
             allowfullscreen="" loading="lazy"></iframe>
 
         <form action="">
-            <h3>get in touch</h3>
+            <h3>Sugerencias o reportes</h3>
             <input type="text" placeholder="your name" class="box">
             <input type="email" placeholder="your email" class="box">
-            <input type="tel" placeholder="subject" class="box">
             <textarea placeholder="your message" class="box" cols="30" rows="10"></textarea>
             <input type="submit" value="send message" class="btn-main">
         </form>
