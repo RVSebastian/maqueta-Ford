@@ -17,88 +17,22 @@
         <p> don't have an account <a href="#">create one</a> </p>
     </form>
 </div>
-
 <?php include'./includes/components/carrouselb.php';?>
 
-
-
 <section class="vehicles" id="vehicles">
-    <h1 class="heading">Los mas <span>vendidos</span> </h1>
+    <h1 class="heading">Los mas vendidos</h1>
     <?php include'./includes/components/card.php';?>
+    <h1 class="heading">Usados</h1>
     <?php include'./includes/components/card.php';?>
+    <h1 class="heading">Motocicletas</h1>
     <?php include'./includes/components/card.php';?>
 </section>
 
-<?php include'./includes/components/marcas.php';?>
-
-<section class="vehicles" id="vehicles">
+<section class="vehicles" id="repuestos">
+<h1 class="heading">Repuestos</h1>
     <?php include'./includes/components/repuestos/card.php';?>
 </section>
-
-<section class="services" id="services">
-    <style>
-    .btn-main {
-        display: inline-block;
-        margin-top: 1rem;
-        padding: .8rem 3rem;
-        background: var(--main);
-        color: var(--white);
-        cursor: pointer;
-        font-size: 1.7rem;
-        border-radius: .5rem;
-        font-weight: 500;
-        text-align: center;
-    }
-
-    .btn-main:hover {
-        background: var(--white);
-    }
-    </style>
-    <h1 class="heading"> our <span>services</span> </h1>
-
-    <div class="box-container">
-        <div class="box">
-            <i class="fas fa-car"></i>
-            <h3>car selling</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>
-            <a href="#" class="btn-main"> read more</a>
-        </div>
-
-        <div class="box">
-            <i class="fas fa-tools"></i>
-            <h3>parts repair</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>
-            <a href="#" class="btn-main"> read more</a>
-        </div>
-
-        <div class="box">
-            <i class="fas fa-car-crash"></i>
-            <h3>car insurance</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>
-            <a href="#" class="btn-main"> read more</a>
-        </div>
-
-        <div class="box">
-            <i class="fas fa-car-battery"></i>
-            <h3>battery replacement</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>
-            <a href="#" class="btn-main"> read more</a>
-        </div>
-
-
-
-        <div class="box">
-            <i class="fas fa-headset"></i>
-            <h3>24/7 support</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>
-            <a href="#" class="btn-main"> read more</a>
-        </div>
-
-    </div>
-
-</section>
-
-
+<?php include'./includes/components/marcas.php';?>
 
 <section class="contact" id="contact">
 
@@ -112,10 +46,11 @@
 
         <form action="">
             <h3>Sugerencias o reportes</h3>
-            <input type="text" placeholder="your name" class="box">
-            <input type="email" placeholder="your email" class="box">
-            <textarea placeholder="your message" class="box" cols="30" rows="10"></textarea>
-            <input type="submit" value="send message" class="btn-main">
+            <input type="text" placeholder="Nombre completo" class="box">
+            <input type="text" placeholder="Telefono" class="box">
+            <input type="email" placeholder="Correo electronico" class="box">
+            <textarea placeholder="Mensaje o reporte" class="box" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn btn-dark">
         </form>
 
     </div>

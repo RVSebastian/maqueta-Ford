@@ -48,9 +48,9 @@
         <nav class="navbar">
             <a href="./index">Home</a>
             <a href="#vehicles">Vehiculos</a>
-            <a href="#services">Repuestos</a>
-            <a href="#featured">Citas</a>
-            <a href="#reviews">PQRS</a>
+            <a href="#repuestos">Repuestos</a>
+            <a href="#main">Citas</a>
+            <a href="#main">PQRS</a>
             <a href="#contact">Contact</a>
             <a href=""><i style="color: var(--main);" class="fas fa-shopping-cart"></i></a>
         </nav>

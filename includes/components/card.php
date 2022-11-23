@@ -47,7 +47,7 @@ figure {
 
     <div class="card vehicle carousel-cells">
         
-        <figure href=""> <img src="./image/prueba.jpg" class="card-img-top"></figure>
+        <figure href=""> <img src="./image/moto.jpg" class="card-img-top"></figure>
         <div class="card-body">
             <h2 class="card-title">Card title</h5>
                 <h4><span class="badge text-bg-dark">300.000km</span> <span class="badge text-bg-dark">4x4</span> <span
