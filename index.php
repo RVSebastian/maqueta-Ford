@@ -20,58 +20,43 @@
 
 <?php include'./includes/components/carrouselb.php';?>
 
-<section class="icons-container">
-    <div class="icons" style="border-radius: 10px">
-        <i class="fas fa-home"></i>
-        <div class="content">
-            <h3>150+</h3>
-            <p>branches</p>
-        </div>
-    </div>
 
-    <div class="icons"  style="border-radius: 10px">
-        <i class="fas fa-car"></i>
-        <div class="content">
-            <h3>4770+</h3>
-            <p>cars sold</p>
-        </div>
-    </div>
-
-    <div class="icons"  style="border-radius: 10px">
-        <i class="fas fa-users"></i>
-        <div class="content">
-            <h3>320+</h3>
-            <p>happy clients</p>
-        </div>
-    </div>
-
-    <div class="icons" style="border-radius: 10px">
-        <i class="fas fa-car"></i>
-        <div class="content">
-            <h3>1500+</h3>
-            <p>news cars</p>
-        </div>
-    </div>
-
-</section>
 
 <section class="vehicles" id="vehicles">
     <h1 class="heading">Los mas <span>vendidos</span> </h1>
     <?php include'./includes/components/card.php';?>
-    <h1 class="heading"> Ford vehicles</h1>
     <?php include'./includes/components/card.php';?>
-    <h1 class="heading"> Peugeot vehicles</h1>
     <?php include'./includes/components/card.php';?>
 </section>
 
 <?php include'./includes/components/marcas.php';?>
 
-<section class="services" id="services">
+<section class="vehicles" id="vehicles">
+    <?php include'./includes/components/repuestos/card.php';?>
+</section>
 
+<section class="services" id="services">
+    <style>
+    .btn-main {
+        display: inline-block;
+        margin-top: 1rem;
+        padding: .8rem 3rem;
+        background: var(--main);
+        color: var(--white);
+        cursor: pointer;
+        font-size: 1.7rem;
+        border-radius: .5rem;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .btn-main:hover {
+        background: var(--white);
+    }
+    </style>
     <h1 class="heading"> our <span>services</span> </h1>
 
     <div class="box-container">
-
         <div class="box">
             <i class="fas fa-car"></i>
             <h3>car selling</h3>
@@ -100,7 +85,7 @@
             <a href="#" class="btn-main"> read more</a>
         </div>
 
-       
+
 
         <div class="box">
             <i class="fas fa-headset"></i>

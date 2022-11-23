@@ -57,25 +57,10 @@ section{
     width: 100%;
     background: var(--light-main);
     z-index: -1;
-    clip-path: polygon(0 90%, 100% 80%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 80%, 100% 100%, 0% 100%);
 }
 
-.btn{
-    display: inline-block;
-    margin-top: 1rem;
-    padding:.8rem 3rem;
-    background:var(--main);
-    color:var(--white);
-    cursor: pointer;
-    font-size: 1.7rem;
-    border-radius: .5rem;
-    font-weight: 500;
-    text-align: center;
-}
 
-.btn:hover{
-    background:var(--white);
-}
 
 .header{
     display: flex;
@@ -85,7 +70,7 @@ section{
     top:0; left:0; right:0;
     padding:3rem 9%;
     z-index: 1000;
-    background:var(--white);
+    background: white !important;
 }
 
 .header .logo{
@@ -106,6 +91,7 @@ section{
 
 .header .navbar a:hover{
     color:var(--main);
+    transform: scale(1.2);
 }
 
 #login-btn .btn{
@@ -232,7 +218,7 @@ section{
 }
 
 .icons-container .icons{
-    background:rgb(0, 0, 0);
+    background: var(--main);
     display: flex;
     align-items: center;
     box-shadow: var(--box-shadow);
@@ -522,7 +508,6 @@ section{
 .reviews .review-slider .box img{
     height:7rem;
     width:7rem;
-    border-radius: 50%;
     object-fit: cover;
 }
 

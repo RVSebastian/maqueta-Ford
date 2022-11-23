@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,8 +9,9 @@
     <link rel="stylesheet" href="./includes/css/global.css" />
     <title>AUTOMARCOL</title>
     <link rel="icon" href="logo.jpeg" />
-    <!-- ESTILOS PROPRIOS-->
- 
+    <!-- loader -->
+    <link rel="stylesheet" href="./includes/css/loader.css" />
+
     <!-- fuentes de la letra  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,21 +29,21 @@
 
     <!-- BOOSTRAP -->
     <script src="https://unpkg.com/scrollreveal"></script>
-    
+
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
 
 </head>
 
 <body class="">
-
-
-    <header class="header">
+    <header class="header" style=" background: white !important;">
 
         <div id="menu-btn" class="fas fa-bars"></div>
-        <img src="../image/logo.png" class="logo" alt="logo.automarcol">
+        <img src="./image/logo.png" class="logo" alt="logo.automarcol">
 
         <nav class="navbar">
             <a href="./index">Home</a>
@@ -52,6 +52,10 @@
             <a href="#featured">Citas</a>
             <a href="#reviews">PQRS</a>
             <a href="#contact">Contact</a>
+            <a href=""><i style="color: var(--main);" class="fas fa-shopping-cart"></i></a>
         </nav>
         <div id="login-btn" style="display: none"></div>
     </header>
+    <div class="loader">
+        <img src="./image/loader2.gif" alt="">
+    </div>

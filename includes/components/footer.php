@@ -44,6 +44,8 @@
 
 </section>
 
+<!-- AÑADIMOS UN LOADER ANTES DE CARGA-->
+<script src="./includes/js/loader.js"></script>
   
 <!-- Boostrap 5.2 js -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"

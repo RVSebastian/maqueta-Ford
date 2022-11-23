@@ -1,3 +1,8 @@
+<style>
+    .reviews .review-slider .box img{
+    border-radius:0 !important;
+}
+</style>
 <section class="reviews" id="reviews">
 
     <h1 class="heading"> Nuestras <span>Marcas</span> </h1>
