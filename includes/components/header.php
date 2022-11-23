@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- link css -->
-    <link rel="stylesheet" href="includes/css/global.css" />
+    <link rel="stylesheet" href="./includes/css/global.css" />
     <title>AUTOMARCOL</title>
     <link rel="icon" href="logo.jpeg" />
     <!-- ESTILOS PROPRIOS-->
@@ -42,10 +43,10 @@
     <header class="header">
 
         <div id="menu-btn" class="fas fa-bars"></div>
-        <img src="./image/logo.png" class="logo" alt="logo.automarcol">
+        <img src="../image/logo.png" class="logo" alt="logo.automarcol">
 
         <nav class="navbar">
-            <a href="#home">Home</a>
+            <a href="./index">Home</a>
             <a href="#vehicles">Vehiculos</a>
             <a href="#services">Repuestos</a>
             <a href="#featured">Citas</a>

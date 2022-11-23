@@ -85,7 +85,7 @@ section{
     top:0; left:0; right:0;
     padding:3rem 9%;
     z-index: 1000;
-    background: black !important;
+    background:var(--white);
 }
 
 .header .logo{
@@ -228,7 +228,7 @@ section{
     gap:1.5rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background: rgb(0, 0, 0);
+    background: rgb(207, 205, 205);
 }
 
 .icons-container .icons{
@@ -517,8 +517,6 @@ section{
 .reviews .review-slider .swiper-slide-active{
     opacity: 1;
     transform: scale(3);
-    border:var(--border);
-    border-radius: .5rem;
 }
 
 .reviews .review-slider .box img{

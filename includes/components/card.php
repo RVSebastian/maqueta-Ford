@@ -24,7 +24,7 @@ p {
 
 .card:hover img {
     -webkit-transform: rotate(10deg) scale(1.4);
-    transform: scale(1.1);
+    transform: rotate(1deg) scale(1.1);
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
 }
@@ -43,7 +43,7 @@ figure {
     data-flickity='{ "cellAlign": "center", "contain": true, "prevNextButtons": false, "pageDots": false, "autoPlay": 6000, "friction": 0.5, "selectedAttraction": 0.15 }'>
 
     <div class="card vehicle carousel-cells">
-        <figure> <img src="./image/prueba.jpg" class="card-img-top"></figure>
+        <figure href="./Pages/detalle"> <img src="./image/prueba.jpg" class="card-img-top"></figure>
         <div class="card-body">
             <h2 class="card-title">Card title</h5>
                 <h4><span class="badge text-bg-dark">300.000km</span> <span class="badge text-bg-dark">4x4</span> <span
@@ -55,7 +55,7 @@ figure {
         <div class="bg-dark text-light text-center pt-2">
             <h3>$40.000.0000 COP</h4>
                 <h4>Precio estimado</h2>
-
+                    <a href="./detalle">www</a>
         </div>
     </div>
     <div class="card vehicle carousel-cells">
